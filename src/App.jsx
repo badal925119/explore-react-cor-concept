@@ -2,6 +2,8 @@ import './App.css'
 import Counter from './counter'
 import Team from './Team'
 import Frinds from './frinds'
+import Post from './post'
+import Posts from './posts'
 
 
 function App() {
@@ -19,6 +21,8 @@ const handleclick2 = ()=>{
 
   return (
     <>
+    <Posts></Posts>
+    <Post></Post>
       <h1>React Core consept 2</h1>
       <Frinds></Frinds>
       <Team></Team>
@@ -28,6 +32,8 @@ const handleclick2 = ()=>{
       <button onClick={()=>{
         addFive(456)
       }}>add five</button>
+
+      
     </>
   )
 }
